@@ -1,0 +1,13 @@
+ja:
+  activerecord:
+    models: # Shop.model_name.human/t("activerecord.models.shop")
+      shop: 店舗
+      board: 掲示板
+    attributes: # Shop.human_attribute_name(:name)/t("activerecord.attributes.shop.name")
+      shop:
+        id: ID
+        name: 名前
+  # 全てのmodelで共通するattributes
+  attributes:
+    created_at: 作成日
+    updated_at: 更新日
