@@ -3,7 +3,7 @@ class ShopsController < ApplicationController
     shops = Shop.all
 
     render json: {
-      restaurants: shops
+      shops: shops
     }, status: :ok
   end
 end
